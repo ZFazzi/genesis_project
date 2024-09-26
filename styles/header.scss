@@ -1,5 +1,7 @@
 $main-txt-color:#111111;
 
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -44,40 +46,4 @@ li a{
 
 li a:hover{
     font-size: 20px;
-}
-
-.hero {
-    padding: 50px 0;
-}
- 
-.hero h1 {
-    font-size: 22px;
-    color: #4A4FF2;
-    font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: 2%;
-    line-height: auto;
-    margin-left: 125px;
-}
-.container{
-    display: flex;
-}
- 
-.large_paragraph {
-    font-size: 40px;
-    font-weight: bold;
-    color: $main-txt-color;
-    font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: 0;
-    line-height: 60px;
-    margin-left: 125px;
-    align-items: flex-start;
-}
-#pd{
-    color: #4A4FF2;
 }
