@@ -59,18 +59,18 @@ $main-txt-color:#111111;
 
 /*Grid Images*/
 main {
-	width: 100%;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: space-around;
 }
 
 .gallery_container{
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(32, 1fr);
-    width: 85%;
-    max-height: auto;
+    max-width: 1200px;
+    max-height: 1900px;
+    gap: 10px;
     background-color: transparent;
 }
 
@@ -172,4 +172,41 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+/* Info text "We love hard work */
+.small_paragraph{
+    font-size: 28px;
+    color: $main-txt-color;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0px;
+    line-height: 30px;
+    margin-left: 125px;
+    align-items: flex-start;
+}
+
+.service_m{
+    font-size: 18px;
+    margin-left: 55vh;
+    color: #979797;
+    font-style: 400;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.service_c{
+    font-size: 18px;
+    margin-left: 127px;
+    color: #979797;
+    font-style: 400;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
