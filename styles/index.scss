@@ -8,7 +8,7 @@ $main-txt-color: #111111;
   }
   
 .content-section {
-    width: 60%;
+    width: 80%;
 }
   
 .content-section h1 {
@@ -35,6 +35,10 @@ $main-txt-color: #111111;
     margin-bottom: 20px;
 }
 
+#pd{
+    color: #4A4FF2;
+}
+
 .intro_quote{
     font-size: 18px;
     margin-left: 55vh;
@@ -56,17 +60,19 @@ $main-txt-color: #111111;
 
 /*Grid Images*/
 main {
-	display: flex;
-	justify-content: center;
-	align-items: space-around;
+    margin: 50px auto;
+    max-width: 1200px;
+    max-height: 1900px;
+
 }
 
 .gallery_container{
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(32, 1fr);
     max-width: 1200px;
     max-height: 1900px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(31, 1fr);
     gap: 10px;
     background-color: transparent;
 }
@@ -93,68 +99,46 @@ main {
     grid-row: 1 / 8;     
     grid-column: 1 / 4; 
 }
-
-
 .img_2 {
     grid-row: 1 / 7;     
     grid-column: 4 / 7; 
 }
-
-
 .img_3 {
     grid-row: 1 / 11;     
     grid-column: 7 / 9; 
 }
-
-
 .img_4 {
     grid-row: 8 / 16;     
     grid-column: 1 / 4; 
 }
-
-
 .img_5 {
     grid-row: 7 / 14;     
     grid-column: 4 / 7; 
 }
-
-
 .img_6 {
     grid-row: 11 / 18;    
     grid-column: 7 / 9; 
 }
-
-
 .img_7 {
     grid-row: 16 / 24;    
     grid-column: 1 / 4; 
 }
-
-
 .img_8 {
     grid-row: 14 / 23;    
     grid-column: 4 / 7; 
 }
-
-
 .img_9 {
     grid-row: 18 / 27;    
     grid-column: 7 / 9; 
 }
-
-
 .img_10 {
     grid-row: 24 / 32;    
     grid-column: 1 / 4; 
 }
-
-
 .img_11 {
     grid-row: 23 / 32;    
     grid-column: 4 / 7; 
 }
-
-
 .img_12 {
     grid-row: 27 / 32;    
     grid-column: 7 / 9; 
@@ -172,57 +156,42 @@ main {
 }
 
 /* Info text "We love hard work */
-.small_paragraph{
+
+.content-section h2 {
     font-size: 28px;
     color: $main-txt-color;
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    font-style: normal;
+    margin-bottom: 30px;
     letter-spacing: 0px;
-    line-height: 30px;
-    margin-left: 125px;
-    align-items: flex-start;
+    line-height: auto;
 }
 
-.service_m{
+.service p{
     font-size: 18px;
-    margin-left: 40vh;
     color: #979797;
     font-style: 400;
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: flex-end;
 }
-.service_c{
-    font-size: 18px;
-    margin-left: 30px;
-    color: #979797;
-    font-style: 400;
-    font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
 
 /*Awards section*/
-
-.container_prize{
-    display: flex;
-    flex-direction: column;
-    margin-left: 125px;
-    margin-right: 80px;
-    max-width: 1900px;
-}
-
 .container_awards{
     border-top: 1px solid #979797;
     margin-bottom: 10px;
-    padding: 20px;
+    padding-top: 50px;
+    width: 1200px;
+    height: auto;
+}
+
+.award_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .award_title {
@@ -234,25 +203,6 @@ main {
     font-optical-sizing: auto;
 }
 
-.space{
-    margin-left: 490px;
-    margin-bottom: 20px;
-}
-.space1{
-    margin-left: 110px;
-    margin-bottom: 20px;
-}
-.space2{
-    margin-bottom: 20px;
-}
-
-.award_item{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 200px;
-}
-
 .award_name{
     font-size: 18px;
     font-weight: bold;
@@ -260,7 +210,6 @@ main {
     color: $main-txt-color;
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
-    flex-basis: 200px;
 }
 
 .award_description{
@@ -294,4 +243,17 @@ main {
 }
 #genesis4{
     font-weight: 700;
+}
+
+.space1{
+    margin-left: 20%;
+}
+.space2{
+    margin-left: 36%;
+}
+.space3{
+    margin-left: 10%;
+}
+.space4{
+    margin-left: 36%;
 }
