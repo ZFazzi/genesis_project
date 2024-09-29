@@ -223,6 +223,12 @@ main {
 
 .container_awards{
     border-top: 1px solid #979797;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.container_awards_{
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
     margin-bottom: 20px;
     padding: 20px;
 }
@@ -238,7 +244,14 @@ main {
 }
 
 .space{
-    margin-left: 240px;
+    margin-left: 520px;
+    margin-bottom: 20px;
+}
+.space1{
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+.space2{
     margin-bottom: 20px;
 }
 
@@ -246,7 +259,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 20px;
     gap: 200px;
 }
 
@@ -278,4 +290,17 @@ main {
     color: $main-txt-color;
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
+}
+
+#genesis1{
+    font-weight: 700;
+}
+#genesis2{
+    font-weight: 700;
+}
+#genesis3{
+    font-weight: 700;
+}
+#genesis4{
+    font-weight: 700;
 }
