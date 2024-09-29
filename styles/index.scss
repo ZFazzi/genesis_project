@@ -1,25 +1,28 @@
-$main-txt-color:#111111;
-/*Showing Stars*/
-.intro {
-    padding: 50px 0;
+$main-txt-color: #111111;
+ /*Intro*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 1200px;
+  }
+  
+.content-section {
+    width: 60%;
 }
- 
-.intro h1 {
+  
+.content-section h1 {
     font-size: 22px;
     color: #4A4FF2;
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    font-style: normal;
+    margin-bottom: 20px;
     letter-spacing: 2%;
     line-height: auto;
-    margin-left: 125px;
 }
-.container{
-    display: flex;
-}
- 
-.large_paragraph {
+  
+.content-section p {
     font-size: 40px;
     font-weight: bold;
     color: $main-txt-color;
@@ -29,14 +32,10 @@ $main-txt-color:#111111;
     font-style: normal;
     letter-spacing: 0;
     line-height: 60px;
-    margin-left: 125px;
-    align-items: flex-start;
-}
-#pd{
-    color: #4A4FF2;
+    margin-bottom: 20px;
 }
 
-.intro_quote {
+.intro_quote{
     font-size: 18px;
     margin-left: 55vh;
     color: #979797;
@@ -46,13 +45,11 @@ $main-txt-color:#111111;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    margin-left: 65px;
+    margin-top: 64px;
 }
 
 #line{
-   /* text-decoration: overline;
-    text-decoration-color: #979797;
-    text-decoration-thickness: 1px;
-    margin-bottom: 10px;*/
     border-top: 1px solid #979797;
     padding-top: 1px;
 }
