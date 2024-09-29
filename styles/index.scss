@@ -218,6 +218,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-left: 125px;
+    margin-right: 80px;
     max-width: 1900px;
 }
 
@@ -226,16 +227,9 @@ main {
     margin-bottom: 10px;
     padding: 20px;
 }
-.container_awards_{
-    border-top: 1px solid #979797;
-    border-bottom: 1px solid #979797;
-    margin-bottom: 20px;
-    padding: 20px;
-}
 
 .award_title {
     font-size: 22px;
-    padding: 20px;
     font-weight: bold;
     margin-bottom: 20px;
     color: $main-txt-color;
@@ -244,7 +238,7 @@ main {
 }
 
 .space{
-    margin-left: 520px;
+    margin-left: 490px;
     margin-bottom: 20px;
 }
 .space1{

@@ -1,0 +1,49 @@
+$main-txt-color:#111111;
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #979797;
+    margin-right: 80px;
+    margin-left: 125px;
+    padding-top: 114px;
+}
+
+.footer-logo {
+    cursor: pointer;
+}
+
+.footer-navbar{
+    letter-spacing: -0.35px;
+    line-height: auto;
+    color: #111111;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    float: left;
+    padding: 22px;
+}
+
+li a{
+    text-decoration: none;
+    display: block;
+    color: $main-txt-color;
+    line-height: 24px;
+    letter-spacing: 2%;
+    font-size: 18px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+li a:hover{
+    font-size: 20px;
+}
